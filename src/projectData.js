@@ -61,25 +61,6 @@ const projectData = [
         demoLink : "https://manishkumar76.github.io/clock_project/",
         githubLink : "https://github.com/Manishkumar76/clock_project"
     },
-    
-    // {
-    //     name:"Password Generator",
-    //     image:passwordGenerator,
-    //     description:"It is a random password gebnerator where I have used concepts of JS ",
-    //     demoLink : "https://laksh0786.github.io/Random-Password-Generator/",
-    //     githubLink : "https://github.com/laksh0786/Random-Password-Generator"
-    // },
-    
-    // {
-    //     name:"Tic Tac Toe",
-    //     image:tictactoe,
-    //     description:"It is a mini project in js where I have created Tic Tac Toe game but not mobile responsive. ",
-    //     demoLink : "https://laksh0786.github.io/Tic-Tac-Toe/",
-    //     githubLink : "https://github.com/laksh0786/Tic-Tac-Toe"
-    // },
-    
-
-
 ]
 
 export default projectData;
