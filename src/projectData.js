@@ -4,8 +4,6 @@ import Facebook from "./assets/Project/Facebook-clone.png";
 import Calculator from "./assets/Project/calculator.png";
 import clock from "./assets/Project/clock.png";
 import flipkart from "./assets/Project/flipkart.png";
-import passwordGenerator from "./assets/Project/password-generator.jpg"
-import tictactoe from "./assets/Project/tictactoe.jpg"
 // import { HiLibrary } from "react-icons/hi";
 
 

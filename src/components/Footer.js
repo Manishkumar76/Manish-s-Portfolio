@@ -22,7 +22,7 @@ function Footer() {
       <div className='w-full mt-10 flex justify-center flex-wrap gap-14'>
         <a className='footer-link border ' href="https://github.com/Manishkumar76" target='_blank' rel="noreferrer"> <AiFillGithub className='text-[#329d86] p-2' size={45} />     </a>
         <a className='footer-link' href="https://www.linkedin.com/in/manish-coder-pb15/" target='_blank' rel="noreferrer"> <FaLinkedinIn className='text-[#329d86] p-2' size={45} />     </a>
-        <a className='footer-link' href="https://www.instagram.com/itz_maxfilmz15/" target='_blank' rel="noreferrer"> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
+        <a className='footer-link' href="https://www.instagram.com/manish_sw152128/" target='_blank' rel="noreferrer"> <AiFillInstagram className='text-[#329d86] p-2' size={45} />  </a>
         <a className='footer-link' href="https://auth.geeksforgeeks.org/user/manish_40" target='_blank' rel="noreferrer"> <SiGeeksforgeeks className='text-[#329d86] p-2' size={45} />  </a>
         <a className='footer-link' href="https://leetcode.com/mkshakya794/" target='_blank' rel="noreferrer"> <SiLeetcode className='text-[#329d86] p-2' size={45} />  </a>
       </div>
