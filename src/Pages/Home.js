@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 // import hero from '../assets/home-page.png';
-import manish from '../assets/Manish-photo.jpg';
+import manish from '../assets/ProfileImage.jpg';
 import Typewriter from "typewriter-effect";
 import Introduction from '../components/Introduction';
 import Particle from '../components/Particle';
