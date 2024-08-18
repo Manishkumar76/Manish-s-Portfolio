@@ -16,6 +16,11 @@ const projectData = [
         demoLink : "https://github.com/Manishkumar76/project",
         githubLink : "https://github.com/Manishkumar76/project"
     },
+{ name: "Nearby Mart ",
+image:,
+description:"Manish Tripathi, Aaryan Verma and me build a Web Application using Laravel that will work as a bridge between the local store owners and customers.",
+demoLink:"",
+githubLink:""
 
 
     {
