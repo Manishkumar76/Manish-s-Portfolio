@@ -40,6 +40,7 @@ function Home() {
             <Typewriter className="inline" options={{
               strings: [
                 "Student",
+                "Data Scientist and Analyst",
                 "Andorid / IOS Developer",
                 "Full-Stack Web Developer",
                 "Explorer",
@@ -47,7 +48,7 @@ function Home() {
               ],
               autoStart: true,
               loop: true,
-              deleteSpeed: 80,
+              deleteSpeed: 100,
             }}
             />
           </h2>
