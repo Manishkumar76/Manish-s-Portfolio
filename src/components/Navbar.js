@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import logo from '../assets/manishLogo.jpg'
+import logo from '../assets/manishLogo1.jpg'
 import { NavLink } from 'react-router-dom'
 import { RiContactsLine } from "react-icons/ri";
 import {
