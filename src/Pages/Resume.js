@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Document, pdfjs, Page } from 'react-pdf';
-import pdf from './../assets/Manish Kumar Resume .pdf'
+import pdf from './../assets/My Resume.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Particle from '../components/Particle';
 
