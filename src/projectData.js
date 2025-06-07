@@ -5,9 +5,20 @@ import Calculator from "./assets/Project/calculator.png";
 import clock from "./assets/Project/clock.png";
 import flipkart from "./assets/Project/flipkart.png";
 import NearByMart from "./assets/Project/nearby-mart.png";
+import advokey from "./assets/Project/advokey.png";
 // import { HiLibrary } from "react-icons/hi";
 
 const projectData = [
+  {
+    name:"AdvoKey",
+    image:advokey,
+    description:
+      "AdvoKey is a Full Stack Web Application created using ReactJS, NodeJS, ExpressJS and MongoDB. It is a platform for lawyers and clients to connect with each other.",
+    demoLink: "https://advo-key.vercel.app/",
+    githubLink:"https://github.com/Manishkumar76/AdvoKey"
+
+  },
+
   {
     name: "Event Management",
     image: EventMangement,

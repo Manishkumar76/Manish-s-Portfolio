@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 // import hero from '../assets/home-page.png';
-import manish from '../assets/profile-image3.png';
+import manish from '../assets/profile-image1.png';
 import Typewriter from "typewriter-effect";
 import Introduction from '../components/Introduction';
 import Particle from '../components/Particle';
@@ -40,9 +40,18 @@ function Home() {
             <Typewriter className="inline" options={{
               strings: [
                 "Student",
-                "Data Scientist and Analyst",
+                "Data Analyst",
                 "Andorid / IOS Developer",
                 "Full-Stack Web Developer",
+                "MERN Stack Developer",
+                "Next.js Developer",
+                "Flutter Developer",
+                "React Developer",
+                "JavaScript Developer",
+                "Node.js Developer",
+                "Express.js Developer",
+                
+                
                 "Explorer",
                 
               ],

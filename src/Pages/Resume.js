@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Document, pdfjs, Page } from 'react-pdf';
-import pdf from './../assets/My Resume.pdf'
+import pdf from './../assets/My Resume1.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Particle from '../components/Particle';
 
@@ -54,6 +54,7 @@ function Resume() {
         <div className='bg-[#dedede] mx-auto'>
           <Document file={pdf}>
             <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} scale={width > 900 ? 1.4 : 0.6} />
+            <Page pageNumber={2} renderTextLayer={false} renderAnnotationLayer={false} scale={width > 900 ? 1.4 : 0.6} />
           </Document>
         </div>
 
