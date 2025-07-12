@@ -11,7 +11,7 @@ function Contact() {
 
         <div className='pb-6'>
 
-          <p className='text-4xl font-bold border-b-4 border-pink-600'>Contact</p>
+          <p className='text-4xl font-bold border-b-4 border-orange-600'>Contact</p>
 
           <p className='py-4'>Submit the form below or shoot me an email - mkshkaya794@gmail.com</p>
 
@@ -23,7 +23,7 @@ function Contact() {
 
         <textarea className='contact-ip' placeholder='Message' cols='30' rows='10'></textarea>
 
-        <button className='text-white border-2  font-medium rounded-md  hover:bg-pink-600 hover:rounded-md hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center duration-500'>Let's Collaborate</button>
+        <button className='text-white border-2  font-medium rounded-md  hover:bg-orange-600 hover:rounded-md hover:border-orange-600 px-4 py-3 my-8 mx-auto flex items-center duration-500'>Let's Collaborate</button>
 
       </form>
 

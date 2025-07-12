@@ -15,7 +15,7 @@ function About() {
             <div className='pt-24 flex flex-col items-center w-full'>
                 <div className='max-w-[1000px] w-full grid grid-cols-2 pl-6 md:pl-48'>
                     <div className='sm:text-right pb-8 mb-8 '>
-                        <p className=' text-[33px] sm:text-4xl font-bold inline border-b-4 border-pink-600'>
+                        <p className=' text-[33px] sm:text-4xl font-bold inline border-b-4 border-orange-600'>
                             Know Who I'M
                         </p>
                     </div>

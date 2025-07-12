@@ -7,8 +7,16 @@ import Resume from './Pages/Resume';
 import Contact from './Pages/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+  
   return (
     <div>
 

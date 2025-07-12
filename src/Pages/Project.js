@@ -1,104 +1,58 @@
 import React from 'react'
-import projectData from '../projectData';
-import Particle from '../components/Particle';
+import projectData from '../projectData'
+import Particle from '../components/Particle'
 
 function Project() {
-  console.log(projectData)
   return (
     <div className='w-full mt-20 mb-10 text-gray-300 bg-[#0a192f]'>
-
       <Particle />
 
-      <div className='max-w-[1000px] lg:pl-20 mx-auto p-4 flex flex-col w-full h-full'>
-
-        <div className='pb-8'>
-          <p className='text-4xl pb-1 font-bold border-b-4 border-pink-600 text-gray-300'>Projects</p>
-          <p className='py-2'>Check out some of my recent works</p>
+      <div className='max-w-[1200px] mx-auto p-4'>
+        <div className='pb-8 text-center'>
+          <p className='text-4xl font-bold border-b-4 border-orange-600 inline-block text-gray-300'>Projects</p>
+          <p className='py-4'>Check out some of my recent works</p>
         </div>
 
         {/* Card Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto'>
-
-          {/* Card - 1 */}
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
           {
-            projectData.map((project, index) => {
-              return (
-
-                //Glass hover animation
-                <div className="group flex justify-center overflow-hidden  items-center relative cursor-pointer hover:scale-110 hover:shadow-[#6fc2b0] hover:shadow-lg duration-500 ">
-
-                  {/* Card */}
-                  <div className="max-w-[300px] sm:max-w-full flex flex-col overflow-hidden shadow-md border-2  rounded-md border-gray-600 shadow-pink-100 bg-slate-50" key={index}>
-
-                    {/* Project Image */}
-                    <img className="w-full h-[220px] shadow-md shadow-gray-400" src={project.image} alt="Sunset in the mountains" />
-
-                    {/* Project Details */}
-                    <div className="px-6 py-3">
-                      <div className="font-bold text-xl text-blue-950 border-b-2 border-orange-400 ">{project.name}</div>
-                      <p className="text-gray-800 pt-2 leading-[22px] text-[14px]">
-                        {project.description}
-                      </p>
-
-                      {/* Project Links */}
-                      <div className='pt-1 text-center'>
-
-                        {/* Demo Button */}
-                        <a href={project.demoLink}>
-                          <button className='link-btn'>Demo</button>
-                        </a>
-
-                        {/* Code Button */}
-                        <a href={project.githubLink}>
-                          <button className='link-btn'>Code </button>
-                        </a>
-
-                      </div>
-
-                    </div>
-                  </div>
-
-                  {/* shine box */}
-                  <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
+            projectData.map((project, index) => (
+              <div
+                key={index}
+                className="group p-4 bg-white/5 backdrop-blur-md rounded-xl border border-orange-400 flex flex-col justify-between transition-transform duration-300 hover:scale-105 hover:animate-glow"
+              >
+                {/* Project Image */}
+                <div className="h-[200px] overflow-hidden rounded-md">
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
 
-              )
-            })
+                {/* Project Details */}
+                <div className="pt-4 flex flex-col justify-between flex-1">
+                  <div>
+                    <h2 className="text-xl font-bold text-white border-b-2 border-orange-400 pb-1">{project.name}</h2>
+                    <p className="text-sm text-gray-300 pt-2">{project.description}</p>
+                  </div>
+
+                  <div className="pt-4 flex gap-3 justify-center flex-wrap">
+                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                      <button className="px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-all">Demo</button>
+                    </a>
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                      <button className="px-4 py-2 border border-orange-400 text-orange-400 rounded-lg hover:bg-orange-600 hover:text-white transition-all">Code</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))
           }
-
         </div>
-
       </div>
-
     </div>
   )
 }
 
 export default Project;
-
-
-//   {/* Card - 1 */}
-//   <div style={{ backgroundImage: `url(${project1})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-//   {/* Hover Effect */}
-//   <div className='opacity-0 group-hover:opacity-80'>
-
-//     <span className='text-2xl font-bold text-white  tracking-wider'>
-//       ReactJS Application
-//     </span>
-
-//     <div className='pt-8 text-center'>
-
-//       <a href="/">
-//         <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg '>Demo</button>
-//       </a>
-
-//       <a href="/">
-//         <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg '>Code </button>
-//       </a>
-
-//     </div>
-
-//   </div>
-
-// </div>

@@ -26,7 +26,7 @@ function Home() {
         {/* Text Container */}
         <div className='max-w-[1000px] lg:max-w-[1200px] pl-4 sm:pl-5 lg:pl-[66px] flex flex-col justify-center h-full'>
 
-          <p className=' text-4xl my-2 text-pink-400 font-semibold'>
+          <p className=' text-4xl my-2 text-orange-400 font-semibold'>
             <span>Hi , There!</span>
             <span className="wave ml-3 " role="img" aria-labelledby="wave">
               👋🏻
@@ -67,7 +67,7 @@ function Home() {
           </p>
 
           <div>
-            <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:rounded-lg font-medium transition-all duration-300' onClick={clickHandler}> View Work
+            <button className='group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600 hover:rounded-lg font-medium transition-all duration-300' onClick={clickHandler}> View Work
               <span className='group-hover:rotate-180 duration-500'>
                 <HiArrowNarrowRight className='ml-2 mr-2' />
               </span>
